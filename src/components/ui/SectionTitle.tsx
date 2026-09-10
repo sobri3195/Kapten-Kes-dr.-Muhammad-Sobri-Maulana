@@ -1,0 +1,1 @@
+export function SectionTitle({label,title,copy}:{label:string;title:string;copy?:string}){return <div className="mb-10 max-w-3xl"><p className="eyebrow mb-3">{label}</p><h2 className="display text-4xl font-semibold text-ivory md:text-6xl">{title}</h2><div className="rule my-5 w-32"/>{copy&&<p className="prose-copy">{copy}</p>}</div>}

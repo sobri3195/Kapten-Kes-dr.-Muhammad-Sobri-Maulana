@@ -1,0 +1,1 @@
+export function TopicCard({topic,index}:{topic:string;index:number}){return <div className="flex items-center gap-3 border-b border-white/10 py-3 text-sm text-slate"><span className="font-serif text-gold">{String(index+1).padStart(2,'0')}</span>{topic}</div>}
